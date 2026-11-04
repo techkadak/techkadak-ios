@@ -1,0 +1,2309 @@
+{
+  "_schema": "See docs/SCHEMA.md",
+  "apps": [
+    {
+      "slug": "vlc",
+      "name": "VLC",
+      "category": [
+        "Android Apps",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Lagbhag har video aur audio format chala deta hai — phone ki files bhi, network streams bhi. Fast, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0), no ads",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.videolan.org/vlc/download-android.html"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.videolan.vlc/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.videolan.vlc"
+        }
+      ],
+      "icon": "assets/icons/vlc.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.videolan.vlc",
+      "added": "2026-11-03"
+    },
+    {
+      "slug": "image-toolbox",
+      "name": "Image Toolbox",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Photo ka swiss knife: resize, crop, compress, format convert, filters, OCR (text nikalna), background remove, EXIF edit, PDF banana.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Features bahut saare hain, shuru me thoda explore karna padega.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/T8RIN/ImageToolbox"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/ru.tech.imageresizershrinker"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=ru.tech.imageresizershrinker"
+        }
+      ],
+      "icon": "assets/icons/image-toolbox.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfQ_EWyx3CP/",
+          "title": "GitHub ki 5 hidden Android apps"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "colorblendr",
+      "name": "ColorBlendr",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Android 12+ pe Material You / system accent colors customize: wallpaper ya apna seed color, saturation/lightness sliders, presets, pitch black.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Android 12+ (Material You ROM) + Root, Shizuku ya Wireless ADB mode chahiye; Root pe full features, Shizuku/ADB pe kam. Play Store pe nahi.",
+      "platforms": "Android 12+",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Mahmud0808/ColorBlendr"
+        }
+      ],
+      "icon": "assets/icons/colorblendr.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfQ_EWyx3CP/",
+          "title": "GitHub ki 5 hidden Android apps"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "urlcheck",
+      "name": "URLCheck",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Link kholne se pehle beech me khulta hai: redirects/short links check, URL details, trackers hatana, suspicious/phishing links pe warning (VirusTotal, hosts list).",
+      "pricing": "Free",
+      "priceNote": "Free, open source (CC BY 4.0)",
+      "limit": "VirusTotal scan ke liye free VirusTotal account ki personal API key lagti hai; Unshortener online service (unshorten.me) use karta hai, private links mat bhejo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/TrianguloY/URLCheck"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.trianguloy.urlchecker"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker"
+        }
+      ],
+      "icon": "assets/icons/urlcheck.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfQ_EWyx3CP/",
+          "title": "GitHub ki 5 hidden Android apps"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "http-shortcuts",
+      "name": "HTTP Shortcuts",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Custom HTTP requests (APIs, webhooks, smart home, automation) ko home screen shortcut bana do; ek tap me request chalti hai. Scripting + variables bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Thoda technical: API/URL ki basic samajh chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Waboodoo/HTTP-Shortcuts"
+        },
+        {
+          "label": "Website",
+          "url": "https://http-shortcuts.rmy.ch"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/ch.rmy.android.http_shortcuts/"
+        }
+      ],
+      "icon": "assets/icons/http-shortcuts.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfQ_EWyx3CP/",
+          "title": "GitHub ki 5 hidden Android apps"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "openscan",
+      "name": "OpenScan",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Privacy wala document scanner: documents/notes/cards scan, live edge detection se auto crop, filters, PDF/JPG export. No ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (BSD-3-Clause)",
+      "limit": "OCR (text nikalna) official repo me listed nahi; sirf Android.",
+      "platforms": "Android",
+      "replaces": "Paid scanner apps",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ethereal-developers/OpenScan"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.ethereal.openscan"
+        }
+      ],
+      "icon": "assets/icons/openscan.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfQ_EWyx3CP/",
+          "title": "GitHub ki 5 hidden Android apps"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "languagetool",
+      "name": "LanguageTool",
+      "category": [
+        "Student Tech",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Assignment, email, resume ki English grammar + spelling galtiyan pakdo. Chrome, Word, Google Docs mein chalta hai.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan (Premium paid)",
+      "limit": "Free mein ek baar mein 2,000 characters, AI rephrase sirf 3/day.",
+      "platforms": "Web, Chrome, Word, Google Docs",
+      "replaces": "Grammarly Pro",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://languagetool.org"
+        }
+      ],
+      "icon": "assets/icons/languagetool.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfQ35QHE7AK/",
+          "title": "PADHAI KE 5 FREE APPS"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "khan-academy",
+      "name": "Khan Academy",
+      "category": [
+        "Student Tech",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Class 1-12 Maths, Science aur aur subjects: videos, practice, tests. NCERT/CBSE aligned, Hindi mein bhi. Nonprofit.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Live teacher / personal doubt-solving nahi.",
+      "platforms": "Android, Web",
+      "replaces": "Paid tuition apps",
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.khanacademy.android"
+        },
+        {
+          "label": "Website",
+          "url": "https://www.khanacademy.org"
+        }
+      ],
+      "icon": "assets/icons/khan-academy.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfQ35QHE7AK/",
+          "title": "PADHAI KE 5 FREE APPS"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "nptel",
+      "name": "NPTEL",
+      "category": [
+        "Student Tech",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "IIT aur IISc ke courses — padhai bilkul free, koi bhi join kar sakta hai.",
+      "pricing": "Freemium",
+      "priceNote": "Free (certificate exam paid)",
+      "limit": "Certificate ke liye proctored exam dena hota hai, woh paid hai.",
+      "platforms": "Web",
+      "replaces": "Paid online courses",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://nptel.ac.in/"
+        }
+      ],
+      "icon": "assets/icons/nptel.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfQ35QHE7AK/",
+          "title": "PADHAI KE 5 FREE APPS"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "category": [
+        "Student Tech",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Unlimited notes, bina sign-up, offline. Android, iPhone, Windows, Mac, Linux sab pe.",
+      "pricing": "Freemium",
+      "priceNote": "Free (Sync paid)",
+      "limit": "Devices ke beech auto-sync paid hai (Sync $4/month, yearly billing).",
+      "platforms": "Android, iOS, Windows, Mac, Linux",
+      "replaces": "Evernote (free = sirf 50 notes)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://obsidian.md"
+        },
+        {
+          "label": "Download",
+          "url": "https://obsidian.md/download"
+        }
+      ],
+      "icon": "assets/icons/obsidian.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfQ35QHE7AK/",
+          "title": "PADHAI KE 5 FREE APPS"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "zotero",
+      "name": "Zotero",
+      "category": [
+        "Student Tech",
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Research papers, PDFs save karo, ek click mein citation/bibliography. Project aur thesis ke liye best. Open-source, nonprofit.",
+      "pricing": "Freemium",
+      "priceNote": "Free (extra storage paid)",
+      "limit": "Free cloud storage sirf 300 MB (2 GB = $20/year).",
+      "platforms": "Windows, Mac, Linux, Android",
+      "replaces": "EndNote ($275)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.zotero.org"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.zotero.android"
+        }
+      ],
+      "icon": "assets/icons/zotero.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfQ35QHE7AK/",
+          "title": "PADHAI KE 5 FREE APPS"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "anysoftkeyboard",
+      "name": "AnySoftKeyboard",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Open-source keyboard: layouts, themes, gesture typing — sab apni marzi ka.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.menny.android.anysoftkeyboard/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AnySoftKeyboard/AnySoftKeyboard"
+        }
+      ],
+      "icon": "assets/icons/anysoftkeyboard.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfR435KRs0I/",
+          "title": "5 open-source Android apps (reel #6)"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "quillpad",
+      "name": "Quillpad",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Markdown notes, task lists, notebooks, tags, reminders — no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.quillpad/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/quillpad/quillpad"
+        }
+      ],
+      "icon": "assets/icons/quillpad.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfR435KRs0I/",
+          "title": "5 open-source Android apps (reel #6)"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "apkupdater",
+      "name": "APKUpdater",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Installed apps ke updates kai sources (F-Droid, GitHub, Play, APKMirror...) se ek jagah check karta hai, background notification ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "F-Droid pe nahi — GitHub releases se lo. Update sirf trusted source ka install karo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rumboalla/apkupdater"
+        }
+      ],
+      "icon": "assets/icons/apkupdater.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfR435KRs0I/",
+          "title": "5 open-source Android apps (reel #6)"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "gkd",
+      "name": "GKD",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Accessibility + custom rules se repetitive screen taps automate karo (advanced users ke liye).",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Accessibility permission chahiye; rules default nahi aate, khud add karne padte hain. UI zyada-tar Chinese.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://gkd.li"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gkd-kit/gkd"
+        }
+      ],
+      "icon": "assets/icons/gkd.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfR435KRs0I/",
+          "title": "5 open-source Android apps (reel #6)"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "sd-maid-se",
+      "name": "SD Maid SE",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Storage analyse karo, cache aur uninstalled apps ki leftover files clean karo, duplicates dhoondo.",
+      "pricing": "Freemium",
+      "priceNote": "Free (optional Pro upgrade)",
+      "limit": "Delete se pehle list check karo. Kuch extra features optional Pro upgrade mein.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/eu.darken.sdmse/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/d4rken-org/sdmaid-se"
+        }
+      ],
+      "icon": "assets/icons/sd-maid-se.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfR435KRs0I/",
+          "title": "5 open-source Android apps (reel #6)"
+        }
+      ],
+      "added": "2026-11-03",
+      "verified": "2026-11-03",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "rethink-dns",
+      "name": "Rethink: DNS + Firewall + VPN",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Apps ki network activity dikhata hai, per-app firewall (internet block), DNS blocklists se ads/trackers block.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Play listing me in-app purchases)",
+      "limit": "Android ke VPN slot me chalta hai, to saath me dusra VPN ek time pe nahi chalega.",
+      "platforms": "Android 6.0+",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.celzero.bravedns/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.celzero.bravedns"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/celzero/rethink-app"
+        },
+        {
+          "label": "Website",
+          "url": "https://rethinkdns.com/app"
+        }
+      ],
+      "icon": "assets/icons/rethink-dns.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfOIu6WRmFq/",
+          "title": "5 SECRET APPS (reel #3)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "app-manager",
+      "name": "App Manager",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Apps ki activities, permissions, signatures dekho; apps me trackers/libraries scan karo.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Power-user app. Dekhna bina root chalta hai, par permissions revoke/components block jaise changes Root/ADB maangte hain. Play Store pe nahi.",
+      "platforms": "Android 5.0+",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.muntashirakon.AppManager/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MuntashirAkon/AppManager"
+        },
+        {
+          "label": "Website",
+          "url": "https://muntashirakon.github.io/AppManager/"
+        }
+      ],
+      "icon": "assets/icons/app-manager.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfOIu6WRmFq/",
+          "title": "5 SECRET APPS (reel #3)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "kvaesitso-launcher",
+      "name": "Kvaesitso Launcher",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Search-focused launcher: apps, contacts, calendar, Wikipedia ek search me; calculator + unit converter.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Pixel + Android 11+ pe best (README). F-Droid build me kuch non-free API features removed; full build developer ke repo/IzzyOnDroid se.",
+      "platforms": "Android 8.0+",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.mm20.launcher2.release/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MM2-0/Kvaesitso"
+        },
+        {
+          "label": "Website",
+          "url": "https://kvaesitso.mm20.de"
+        }
+      ],
+      "icon": "assets/icons/kvaesitso-launcher.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfOIu6WRmFq/",
+          "title": "5 SECRET APPS (reel #3)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "arcticons",
+      "name": "Arcticons",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "15,000+ line-style icons — minimal, clutter-free home screen.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Icon pack hai, app nahi: icon-pack support wala launcher chahiye.",
+      "platforms": "Android",
+      "replaces": "Paid icon packs",
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.donnnno.arcticons/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.donnnno.arcticons"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Arcticons-Team/Arcticons"
+        },
+        {
+          "label": "Website",
+          "url": "https://arcticons.com"
+        }
+      ],
+      "icon": "assets/icons/arcticons.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfOIu6WRmFq/",
+          "title": "5 SECRET APPS (reel #3)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "discreet-launcher",
+      "name": "Discreet Launcher",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Distraction-free home screen, apps rename/hide, offline, no ads, icon packs support.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "⚠️ Project ARCHIVED hai (ab updates/fixes nahi aayenge). F-Droid se install hota hai.",
+      "platforms": "Android 5.0+",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.vincent_falzon.discreetlauncher/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/falzonv/discreet-launcher"
+        }
+      ],
+      "icon": "assets/icons/discreet-launcher.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfOIu6WRmFq/",
+          "title": "5 SECRET APPS (reel #3)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "spliit",
+      "name": "Spliit",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Trip, hostel, flat ka kharcha split karo — no ads, no account, open-source (Splitwise Pro ka free jawab).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Login nahi hai, group link sirf apno ko bhejo. Android pe website se chalao (Android app nahi).",
+      "platforms": "Web (+iPhone app)",
+      "replaces": "Splitwise Pro",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://spliit.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/spliit-app/spliit"
+        }
+      ],
+      "icon": "assets/icons/spliit.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfOy3Bjk4Ho/",
+          "title": "YE 5 SUBSCRIPTION CANCEL KARO"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "wormhole",
+      "name": "Wormhole",
+      "category": [
+        "Paid ka FREE Jawab"
+      ],
+      "what": "10 GB tak file bhejo bina signup, end-to-end encrypted (WeTransfer ka free jawab).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Link 24 ghante me expire. 5 GB se badi file pe bhejne wale ka page khula rehna chahiye.",
+      "platforms": "Web (mobile browser bhi)",
+      "replaces": "WeTransfer",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://wormhole.app/"
+        },
+        {
+          "label": "FAQ",
+          "url": "https://wormhole.app/faq"
+        }
+      ],
+      "icon": "assets/icons/wormhole.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfOy3Bjk4Ho/",
+          "title": "YE 5 SUBSCRIPTION CANCEL KARO"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "proton-vpn-free",
+      "name": "Proton VPN Free",
+      "category": [
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Free VPN: no ads, no logs, data/speed ki koi limit nahi (NordVPN ka free jawab).",
+      "pricing": "Freemium",
+      "priceNote": "Free plan (Plus paid)",
+      "limit": "Free me sirf 1 device. Streaming unlock aur top speed sirf paid Plus me.",
+      "platforms": "Android, iPhone, PC",
+      "replaces": "NordVPN",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://protonvpn.com/free-vpn"
+        }
+      ],
+      "icon": "assets/icons/proton-vpn-free.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfOy3Bjk4Ho/",
+          "title": "YE 5 SUBSCRIPTION CANCEL KARO"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "bitwarden",
+      "name": "Bitwarden",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Password manager: unlimited passwords, unlimited devices, open-source (1Password ka free jawab).",
+      "pricing": "Freemium",
+      "priceNote": "Free (Premium $1.65/month)",
+      "limit": "Built-in 2FA codes aur file attachments Premium me.",
+      "platforms": "Android, iPhone, PC, browser",
+      "replaces": "1Password",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://bitwarden.com/products/personal/"
+        },
+        {
+          "label": "Pricing",
+          "url": "https://bitwarden.com/pricing/"
+        }
+      ],
+      "icon": "assets/icons/bitwarden.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfOy3Bjk4Ho/",
+          "title": "YE 5 SUBSCRIPTION CANCEL KARO"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "medito",
+      "name": "Medito",
+      "category": [
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Meditation, sleep stories, breathing — sab free, non-profit, no ads (Headspace/Calm ka free jawab).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Abhi sirf English me (kuch Spanish sessions).",
+      "platforms": "Android, iPhone",
+      "replaces": "Headspace / Calm",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://meditofoundation.org/medito-app"
+        }
+      ],
+      "icon": "assets/icons/medito.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfOy3Bjk4Ho/",
+          "title": "YE 5 SUBSCRIPTION CANCEL KARO"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "antennapod",
+      "name": "AntennaPod",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Open-source podcast player: subscribe, download, offline suno — free, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free (open-source)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://antennapod.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.danoeh.antennapod/"
+        }
+      ],
+      "icon": "assets/icons/antennapod.png",
+      "posts": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/hMcHsS8aJ0U",
+          "title": "4 FREE Open Source Android Apps (YouTube)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "obtainium",
+      "name": "Obtainium",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Apps ke updates seedha developer ke source (GitHub, F-Droid etc.) se — store ke bina.",
+      "pricing": "Free",
+      "priceNote": "Free (open-source)",
+      "limit": "Sirf official source URL add karo; signature warning aaye to ruk jao.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ImranR98/Obtainium"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.imranr.obtainium.fdroid/"
+        }
+      ],
+      "icon": "assets/icons/obtainium.png",
+      "posts": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/hMcHsS8aJ0U",
+          "title": "4 FREE Open Source Android Apps (YouTube)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "breezy-weather",
+      "name": "Breezy Weather",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Open-source weather app: clean design, forecasts, widgets, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free (open-source)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/breezy-weather/breezy-weather"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.breezyweather/"
+        }
+      ],
+      "icon": "assets/icons/breezy-weather.png",
+      "posts": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/hMcHsS8aJ0U",
+          "title": "4 FREE Open Source Android Apps (YouTube)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "markor",
+      "name": "Markor",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Plain-text / Markdown notes + to-do list, offline, open-source.",
+      "pricing": "Free",
+      "priceNote": "Free (open-source)",
+      "limit": "Sync/backup khud nahi hota — important notes ki alag backup rakho.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gsantner/markor"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.gsantner.markor/"
+        }
+      ],
+      "icon": "assets/icons/markor.png",
+      "posts": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/hMcHsS8aJ0U",
+          "title": "4 FREE Open Source Android Apps (YouTube)"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "mika",
+      "name": "Mika",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone ka AI agent: bolo kya chahiye, ye apps kholta hai, buttons dabata hai, websites browse karke task poora karta hai (hidden background screen pe).",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0); AI model ka cost apna",
+      "limit": "Apni AI model API key ya ChatGPT/xAI/OpenRouter account lagega. Apps chalane ke liye Android 12+ (chat ke liye 11+), ek baar wireless-debugging pairing. Login, OTP, payment tumhe khud karne padte hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wangzan101/Mika"
+        }
+      ],
+      "icon": "assets/icons/mika.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfPZ2TKRFFY/",
+          "title": "5 naye GitHub projects jo phone ko upgrade kar de"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "smart-island",
+      "name": "Smart Island",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Android pe iPhone jaisa Dynamic Island: notifications, music, calls aur battery ek floating pill me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Android 8+. Overlay + notification access dena padta hai (README: notification data phone se bahar nahi jata).",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/agupta07505/SmartIsland"
+        }
+      ],
+      "icon": "assets/icons/smart-island.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfPZ2TKRFFY/",
+          "title": "5 naye GitHub projects jo phone ko upgrade kar de"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "paperknife",
+      "name": "PaperKnife",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "PDF merge, compress, sign aur password protect, 100% offline, koi server/tracker nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": "Play Store pe nahi: APK GitHub ya IzzyOnDroid (Lite, OCR nahi) se, ya browser me web app.",
+      "platforms": "Android, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/potatameister/PaperKnife"
+        },
+        {
+          "label": "Web app",
+          "url": "https://potatameister.github.io/PaperKnife/"
+        }
+      ],
+      "icon": "assets/icons/paperknife.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfPZ2TKRFFY/",
+          "title": "5 naye GitHub projects jo phone ko upgrade kar de"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "nanomuse",
+      "name": "nanoMuse",
+      "category": [
+        "Open Source/GitHub",
+        "AI Tools"
+      ],
+      "what": "Open-source personal AI agent jo phone, computer aur browser pe kaam karta hai aur tumhari preferences yaad rakhta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0); free AI limit ke baad apni API key",
+      "limit": "Free allowance khatam hone ke baad apni API key lagani padti hai. iPhone pe abhi TestFlight beta. Desktop builds notarised nahi.",
+      "platforms": "Android, Windows, macOS, Linux, iPhone (beta)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nano-muse/nanoMuse"
+        },
+        {
+          "label": "Website",
+          "url": "https://nanomuse.cn/"
+        }
+      ],
+      "icon": "assets/icons/nanomuse.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfPZ2TKRFFY/",
+          "title": "5 naye GitHub projects jo phone ko upgrade kar de"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "twindesk",
+      "name": "TwinDesk",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Android phone + computer ek desk: files, clipboard, notifications, screen share, phone as remote ya second screen. No account, no cloud.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Apps code-signed nahi hai: Windows/Mac pehli baar 'Run anyway / Open' bolna padega.",
+      "platforms": "Android, Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/InukaAsith/TwinDesk"
+        }
+      ],
+      "icon": "assets/icons/twindesk.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfPZ2TKRFFY/",
+          "title": "5 naye GitHub projects jo phone ko upgrade kar de"
+        }
+      ],
+      "added": "2026-11-02",
+      "verified": "2026-11-02",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "newpipe",
+      "name": "NewPipe",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Libre, lightweight streaming front-end for Android (YouTube jaisi sites ke liye).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Play Store pe nahi — F-Droid/official site se. Platform ke rules follow karo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://newpipe.net"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.schabi.newpipe/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/TeamNewPipe/NewPipe"
+        }
+      ],
+      "icon": "assets/icons/newpipe.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMU2lyxUcm/",
+          "title": "OPEN SOURCE DROP — 5 apps (reel #1)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "seal",
+      "name": "Seal",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "yt-dlp based video/audio downloader for Android (supported platforms ke links se).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Copyright aur platform rules follow karo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.junkfood.seal/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JunkFood02/Seal"
+        }
+      ],
+      "icon": "assets/icons/seal.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMU2lyxUcm/",
+          "title": "OPEN SOURCE DROP — 5 apps (reel #1)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "metrolist",
+      "name": "MetroList",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "YouTube Music client for Android.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Maintenance mode (sirf bug fixes); aapke region me YouTube Music available hona chahiye; main F-Droid pe nahi — GitHub releases se.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://metrolist.cc"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MetrolistGroup/Metrolist"
+        }
+      ],
+      "icon": "assets/icons/metrolist.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMU2lyxUcm/",
+          "title": "OPEN SOURCE DROP — 5 apps (reel #1)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "libretube",
+      "name": "LibreTube",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Android ke liye alternative YouTube frontend.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://libretube.dev"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.libretube/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/libre-tube/LibreTube"
+        }
+      ],
+      "icon": "assets/icons/libretube.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMU2lyxUcm/",
+          "title": "OPEN SOURCE DROP — 5 apps (reel #1)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "kde-connect",
+      "name": "KDE Connect",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Phone ↔ laptop: files/links share, shared clipboard, notifications sync (WiFi pe).",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Computer pe bhi KDE Connect install karna padta hai; same network chahiye.",
+      "platforms": "Android + Windows/macOS/Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://kdeconnect.kde.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.kde.kdeconnect_tp/"
+        }
+      ],
+      "icon": "assets/icons/kde-connect.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMmxRFxu9o/",
+          "title": "5 free open-source apps (reel #2)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "syncthing-fork",
+      "name": "Syncthing-Fork",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Open, decentralized file sync — devices ke beech folders sync, bina cloud ke.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": "Cloud sync apps",
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.catfriend1.syncthingfork/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/researchxxl/syncthing-android"
+        }
+      ],
+      "icon": "assets/icons/syncthing-fork.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMmxRFxu9o/",
+          "title": "5 free open-source apps (reel #2)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "keepassdx",
+      "name": "KeePassDX",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Password manager: encrypted KeePass file, internet ki zarurat nahi.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": "Paid password managers",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.keepassdx.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.kunzisoft.keepass.libre/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kunzisoft/KeePassDX"
+        }
+      ],
+      "icon": "assets/icons/keepassdx.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMmxRFxu9o/",
+          "title": "5 free open-source apps (reel #2)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "libreoffice",
+      "name": "LibreOffice",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Student Tech"
+      ],
+      "what": "Writer/Calc/Impress — free office suite, .docx/.xlsx/.pptx open + save.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Complex MS Office files me formatting thodi shift ho sakti hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Microsoft 365 (paid)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.libreoffice.org/"
+        },
+        {
+          "label": "Download",
+          "url": "https://www.libreoffice.org/download/download-libreoffice/"
+        }
+      ],
+      "icon": "assets/icons/libreoffice.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfMG4WSiMVq/",
+          "title": "5 PAID SOFTWARE KA FREE JAWAB (laptop)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "davinci-resolve",
+      "name": "DaVinci Resolve (free version)",
+      "category": [
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Pro video editing: Edit, Cut, Color, Fusion, Fairlight.",
+      "pricing": "Freemium",
+      "priceNote": "Free version (Studio paid)",
+      "limit": "Free version Ultra HD (3840x2160) tak, 60 fps; AI Neural Engine + 100+ features sirf paid Studio me. Open source nahi.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Adobe Premiere Pro (paid)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+        }
+      ],
+      "icon": "assets/icons/davinci-resolve.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfMG4WSiMVq/",
+          "title": "5 PAID SOFTWARE KA FREE JAWAB (laptop)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "7-zip",
+      "name": "7-Zip",
+      "category": [
+        "Paid ka FREE Jawab"
+      ],
+      "what": "ZIP/7z banao + kholo; RAR/ISO bhi unpack. Commercial use bhi free, registration nahi.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "RAR sirf unpack hota hai, bana nahi sakte.",
+      "platforms": "Windows",
+      "replaces": "WinRAR (40-din trial)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.7-zip.org/"
+        }
+      ],
+      "icon": "assets/icons/7-zip.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfMG4WSiMVq/",
+          "title": "5 PAID SOFTWARE KA FREE JAWAB (laptop)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Free + open source: screen recording aur live streaming.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Windows 10/11, macOS 13+, Linux",
+      "replaces": "Bandicam (free version 5 min/recording)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://obsproject.com/"
+        }
+      ],
+      "icon": "assets/icons/obs-studio.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfMG4WSiMVq/",
+          "title": "5 PAID SOFTWARE KA FREE JAWAB (laptop)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "inkscape",
+      "name": "Inkscape",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Vector design tool — logos, posters, SVG.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "CorelDRAW (paid)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://inkscape.org/"
+        }
+      ],
+      "icon": "assets/icons/inkscape.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfMG4WSiMVq/",
+          "title": "5 PAID SOFTWARE KA FREE JAWAB (laptop)"
+        }
+      ],
+      "added": "2026-11-01",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "ankidroid",
+      "name": "AnkiDroid Flashcards",
+      "category": [
+        "Student Tech",
+        "Android Apps"
+      ],
+      "what": "Spaced-repetition flashcards: card bhoolne se just pehle dikhata hai. Apne decks banao ya free premade decks lo, AnkiWeb sync.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads)",
+      "limit": "Anki desktop ke saath best chalta hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.ichi2.anki"
+        },
+        {
+          "label": "Website",
+          "url": "https://ankidroid.org"
+        }
+      ],
+      "icon": "assets/icons/ankidroid.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "goodtime-pomodoro",
+      "name": "Goodtime: Pomodoro Timer",
+      "category": [
+        "Student Tech",
+        "Android Apps"
+      ],
+      "what": "Minimal Pomodoro timer: focus sessions, breaks, count-up timer, stats, DND during sessions. Ad-free + tracking-free.",
+      "pricing": "Freemium",
+      "priceNote": "Free, no ads (in-app Premium hai)",
+      "limit": "Labels, pro stats, backup/export jaise features Premium (in-app purchase) me.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.apps.adrcotfas.goodtime"
+        }
+      ],
+      "icon": "assets/icons/goodtime-pomodoro.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "loop-habit-tracker",
+      "name": "Loop Habit Tracker",
+      "category": [
+        "Android Apps"
+      ],
+      "what": "Habits track karo: habit score, flexible schedule (jaise hafte me 3 baar), reminders, widgets. Internet/account ki zarurat nahi.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads, no IAP)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.isoron.uhabits"
+        }
+      ],
+      "icon": "assets/icons/loop-habit-tracker.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "organic-maps",
+      "name": "Organic Maps",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "100% offline maps: search + navigation bina internet, OpenStreetMap based, koi tracking nahi.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads, no IAP)",
+      "limit": "Pehle apne area ka map download karna padta hai (ek baar internet chahiye). Live traffic claim nahi karta.",
+      "platforms": "Android, iOS",
+      "replaces": "Google Maps (offline use ke liye)",
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=app.organicmaps"
+        },
+        {
+          "label": "Website",
+          "url": "https://organicmaps.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/app.organicmaps/"
+        }
+      ],
+      "icon": "assets/icons/organic-maps.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        },
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMmxRFxu9o/",
+          "title": "5 free open-source apps (reel #2)"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "aegis-authenticator",
+      "name": "Aegis Authenticator",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "2FA codes (TOTP/HOTP) ke liye encrypted vault, password + fingerprint lock, automatic backups. Google Authenticator wali har site pe chalta hai.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads, no IAP)",
+      "limit": "Built-in cloud sync account nahi — backup khud safe rakho.",
+      "platforms": "Android",
+      "replaces": "Google Authenticator",
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"
+        },
+        {
+          "label": "Website",
+          "url": "https://getaegis.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.beemdevelopment.aegis/"
+        }
+      ],
+      "icon": "assets/icons/aegis-authenticator.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        },
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMmxRFxu9o/",
+          "title": "5 free open-source apps (reel #2)"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-gallery",
+      "name": "Fossify Gallery",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Photo/video gallery + editor (crop, resize, rotate, draw, filters), EXIF/GPS hatao, PIN/fingerprint lock, recycle bin.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads, no IAP)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": "Ads wali gallery apps",
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.gallery"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.gallery/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Gallery"
+        },
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        }
+      ],
+      "icon": "assets/icons/fossify-gallery.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJimJSEwKr/",
+          "title": "6 kaam ke Android apps"
+        },
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfMU2lyxUcm/",
+          "title": "OPEN SOURCE DROP — 5 apps (reel #1)"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-11-01",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "localsend",
+      "name": "LocalSend",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Bina internet/cloud files share karo same WiFi pe: no account, any file type, encrypted transfer.",
+      "pricing": "Free",
+      "priceNote": "Free (no ads)",
+      "limit": "Internet ke through kaam nahi karta — dono devices same local network pe hone chahiye.",
+      "platforms": "Windows, macOS, Linux, Android, iOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://localsend.org"
+        },
+        {
+          "label": "Download",
+          "url": "https://localsend.org/download"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/localsend/localsend"
+        }
+      ],
+      "icon": "assets/icons/localsend.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfJXukJRC29/",
+          "title": "LocalSend + Jan (reel)"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "photopea",
+      "name": "Photopea",
+      "category": [
+        "Paid ka FREE Jawab",
+        "AI Tools"
+      ],
+      "what": "Browser me photo editor, PSD support, AI remove background / replace.",
+      "pricing": "Freemium",
+      "priceNote": "Free with ads (Premium removes ads)",
+      "limit": "AI features ki limit hai; free version me ads.",
+      "platforms": "Browser (web)",
+      "replaces": "Adobe Photoshop (paid)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.photopea.com"
+        }
+      ],
+      "icon": "assets/icons/photopea.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfKpOOEE_5D/",
+          "title": "5 PAID APPS KA FREE AI JAWAB"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "upscayl",
+      "name": "Upscayl",
+      "category": [
+        "Paid ka FREE Jawab",
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "AI image upscaler — blurry photo ko bada + sharp.",
+      "pricing": "Freemium",
+      "priceNote": "Free desktop app (Upscayl Cloud alag paid)",
+      "limit": "Vulkan-compatible GPU chahiye; kai integrated GPUs pe nahi chalta.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Paid AI upscalers",
+      "links": [
+        {
+          "label": "Download",
+          "url": "https://upscayl.org/download"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/upscayl/upscayl"
+        }
+      ],
+      "icon": "assets/icons/upscayl.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfKpOOEE_5D/",
+          "title": "5 PAID APPS KA FREE AI JAWAB"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "adobe-podcast-enhance-speech",
+      "name": "Adobe Podcast Enhance Speech",
+      "category": [
+        "Paid ka FREE Jawab",
+        "AI Tools"
+      ],
+      "what": "Voice recording se noise + echo hatao (AI).",
+      "pricing": "Freemium",
+      "priceNote": "Free plan with limits",
+      "limit": "Free: sirf audio, ek baar me ek file, max 30 min (500 MB) per file, 1 ghanta per day.",
+      "platforms": "Browser (web)",
+      "replaces": "Paid audio cleanup",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://podcast.adobe.com/en/features"
+        }
+      ],
+      "icon": null,
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfKpOOEE_5D/",
+          "title": "5 PAID APPS KA FREE AI JAWAB"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "meta-ai-image-generator",
+      "name": "Meta AI image generator",
+      "category": [
+        "AI Tools",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Text se AI images free; WhatsApp me Meta AI chat me describe karke bhi.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Kuch hi countries/languages me available; image limits publish nahi.",
+      "platforms": "Web + WhatsApp",
+      "replaces": "Midjourney (paid)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.meta.ai/ai-image-generator/"
+        },
+        {
+          "label": "WhatsApp help",
+          "url": "https://faq.whatsapp.com/666225138813752"
+        }
+      ],
+      "icon": "assets/icons/meta-ai-image-generator.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfKpOOEE_5D/",
+          "title": "5 PAID APPS KA FREE AI JAWAB"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "buzz",
+      "name": "Buzz",
+      "category": [
+        "AI Tools",
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Audio offline transcribe + translate (OpenAI Whisper), TXT/SRT/VTT export.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Intel Mac support last version 1.4.5; Windows app unsigned (warning aata hai).",
+      "platforms": "Windows, macOS (Apple silicon), Linux",
+      "replaces": "Paid transcription",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chidiwilliams/buzz"
+        }
+      ],
+      "icon": "assets/icons/buzz.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfKpOOEE_5D/",
+          "title": "5 PAID APPS KA FREE AI JAWAB"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "jan",
+      "name": "Jan",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Open-source ChatGPT replacement: local AI models apne computer pe offline, private.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "8GB RAM minimum (16GB recommended), ~10GB storage; cloud models ke liye unki API key; mobile app nahi.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "ChatGPT (offline use)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://jan.ai/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/janhq/jan"
+        }
+      ],
+      "icon": "assets/icons/jan.png",
+      "posts": [
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfJXukJRC29/",
+          "title": "LocalSend + Jan (reel)"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "gemini-notebook-free-textbooks",
+      "name": "Gemini Notebook — free textbooks",
+      "category": [
+        "Student Tech",
+        "AI Tools"
+      ],
+      "what": "OpenStax, Open Textbook Library, S Chand ki textbooks Gemini Notebook me add karo; answers citations ke saath, quiz/flashcards.",
+      "pricing": "Free",
+      "priceNote": "Free (usage limits)",
+      "limit": "Usage limits (har 5 ghante refresh); har board/class ki book ho zaroori nahi; AI galti kar sakta hai.",
+      "platforms": "Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://notebook.google.com"
+        }
+      ],
+      "icon": null,
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/techkadak/p/DfJRQfkEw3E/",
+          "title": "Free textbooks with Gemini Notebook"
+        }
+      ],
+      "added": "2026-10-31",
+      "verified": "2026-10-31",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "deeptutor",
+      "name": "DeepTutor",
+      "category": [
+        "AI Tools",
+        "Student Tech",
+        "Open Source/GitHub"
+      ],
+      "what": "Open-source AI tutor: apne notes/PDF/books se samjhata hai, doubts solve, quiz banata hai.",
+      "pricing": "Free",
+      "priceNote": "Free software (AI model ka bill alag)",
+      "limit": "Mobile app nahi; setup technical; online AI model ka bill alag ya local Ollama.",
+      "platforms": "Laptop/PC (Python)",
+      "replaces": "Paid tuition apps",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HKUDS/DeepTutor"
+        },
+        {
+          "label": "Docs",
+          "url": "https://deeptutor.info"
+        }
+      ],
+      "icon": "assets/icons/deeptutor.png",
+      "posts": [
+        {
+          "type": "instagram-post",
+          "url": "https://www.instagram.com/p/DfG6_wzk1YG/",
+          "title": "DeepTutor — free AI tutor"
+        },
+        {
+          "type": "instagram-reel",
+          "url": "https://www.instagram.com/techkadak/reel/DfHPBkBxooh/",
+          "title": "DeepTutor — free AI tutor (reel)"
+        }
+      ],
+      "added": "2026-10-30",
+      "verified": "2026-10-30",
+      "source": "techkadak",
+      "aiAdded": false,
+      "affiliate": ""
+    }
+  ]
+}

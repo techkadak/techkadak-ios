@@ -1,0 +1,97 @@
+name: Build iOS (unsigned IPA)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Publish GitHub Release v1.0.0 with the IPA"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tools
+        run: |
+          xcodebuild -version
+          brew install xcodegen || brew upgrade xcodegen || true
+          xcodegen --version
+
+      - name: Generate project
+        run: xcodegen generate
+
+      - name: Build for Simulator
+        run: |
+          set -o pipefail
+          xcodebuild -project TechKadak.xcodeproj -scheme TechKadak -configuration Release \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build/sim CODE_SIGNING_ALLOWED=NO build 2>&1 | tee build-sim.log | grep -E "error:|warning: unre|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/sim/Build/Products/Release-iphonesimulator/TechKadak.app
+
+      - name: Build for iPhone (unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild -project TechKadak.xcodeproj -scheme TechKadak -configuration Release \
+            -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build/dev CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build 2>&1 | tee build-dev.log | grep -E "error:|BUILD (SUCCEEDED|FAILED)" || true
+          APP=build/dev/Build/Products/Release-iphoneos/TechKadak.app
+          test -d "$APP"
+          mkdir -p dist/Payload
+          cp -R "$APP" dist/Payload/
+          cd dist && zip -qry TechKadak-iOS-v1.0.ipa Payload && rm -rf Payload
+          ls -la; shasum -a 256 TechKadak-iOS-v1.0.ipa | tee TechKadak-iOS-v1.0.ipa.sha256
+          unzip -l TechKadak-iOS-v1.0.ipa | tail -3
+          /usr/libexec/PlistBuddy -c "Print" ../$APP/Info.plist | head -40
+
+      - name: Simulator launch test + screenshots
+        run: |
+          bash ci/sim_test.sh build/sim/Build/Products/Release-iphonesimulator/TechKadak.app out
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs
+          path: |
+            build-sim.log
+            build-dev.log
+            out/
+          if-no-files-found: ignore
+
+      - name: Upload IPA + screenshots
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: techkadak-ios
+          path: |
+            dist/
+            out/
+
+      - name: Publish release v1.0.0
+        if: success() && github.event_name == 'workflow_dispatch' && github.event.inputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > notes.txt <<'EOF'
+          Tech Kadak iPhone app v1.0 (unsigned IPA)
+
+          - Same splash animation + intro as the Android app
+          - Naye apps, Aaj ka app, Kits, categories, Tech Kadak videos
+          - Search, favourites, share poster
+          - Themes: AMOLED, Dark, Light, Liquid Glass
+          - GET opens each app's official link (iPhone cannot install other apps)
+
+          This IPA is not signed. Sign/sideload it with your own tool (AltStore, Sideloadly, ESign, etc.).
+          Tested: launches in the iOS Simulator (fresh, offline, bad data) without crashing.
+          EOF
+          gh release delete v1.0.0 -y --cleanup-tag 2>/dev/null || true
+          gh release create v1.0.0 dist/TechKadak-iOS-v1.0.ipa --title "Tech Kadak iOS v1.0" --notes-file notes.txt --latest
