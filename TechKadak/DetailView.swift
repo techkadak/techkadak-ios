@@ -74,7 +74,7 @@ struct AppDetailView: View {
                     infoRow("Price", app.priceNote ?? app.pricing)
                     if let l = app.limit { divider; infoRow("Limit", l) }
                     if let pl = app.platforms { divider; infoRow("Platforms", pl) }
-                    if let r = app.replaces { divider; infoRow("Kiski jagah", r) }
+                    if let r = app.replaces, !r.lowercased().contains("camscanner") { divider; infoRow("Kiski jagah", r) }
                     if let v = app.verified { divider; infoRow("Check kiya", Parse.prettyDate(v)) }
                     if !app.added.isEmpty { divider; infoRow("Add hua", Parse.prettyDate(app.added)) }
                 }

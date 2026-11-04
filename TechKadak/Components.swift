@@ -138,8 +138,8 @@ struct GetButton: View {
         switch app.availability {
         case .iphone: return (app.appStoreLink != nil ? (compact ? "GET" : "App Store pe kholo") : (compact ? "GET" : "Official site kholo"), true)
         case .web: return (compact ? "KHOLO" : "Browser me kholo", true)
-        case .pc: return (compact ? "PC ke liye" : "PC ke liye • Official site", false)
-        case .android: return (compact ? "Android" : "Android ke liye • Official site", false)
+        case .pc: return ("PC ke liye", false)
+        case .android: return (compact ? "Android" : "Android ke liye", false)
         }
     }
 }

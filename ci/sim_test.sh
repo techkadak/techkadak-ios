@@ -56,6 +56,16 @@ sleep 0.7;  shot 01-splash-live-d
 sleep 4;    shot 02-onboarding-live
 check "fresh launch (splash+onboarding)" 0
 
+# 1b) video of the live splash: returning user (relaunch) and fresh install
+rec(){ xcrun simctl io "$UDID" recordVideo --codec=h264 --force "$OUT/$1.mp4" >/dev/null 2>&1 & REC=$!; sleep 1.5; }
+stoprec(){ kill -INT $REC 2>/dev/null; wait $REC 2>/dev/null; ls -la "$OUT"/*.mp4 2>/dev/null | tail -2; }
+xcrun simctl terminate "$UDID" $BID >/dev/null 2>&1
+rec splash-relaunch; launch -tkOnboard 0; sleep 6; stoprec
+check "video relaunch" 0
+fresh
+rec splash-fresh-install; launch; sleep 6; stoprec
+check "video fresh" 0
+
 # 2) FRESH install → home (onboarding skipped by arg), full splash, live data
 fresh
 launch -tkOnboard 0

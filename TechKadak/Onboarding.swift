@@ -247,7 +247,7 @@ private struct LookMock: View {
                     Text(m.0).font(TKFont.display(13)).foregroundColor(m.2)
                 }
                 .padding(14)
-                .frame(width: 120, height: 190, alignment: .leading)
+                .frame(width: 112, height: 186, alignment: .leading)
                 .background(
                     ZStack {
                         if i == 3 { RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.ultraThinMaterial) }
@@ -256,8 +256,8 @@ private struct LookMock: View {
                 )
                 .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(Color.white.opacity(0.18), lineWidth: 1))
                 .shadow(color: .black.opacity(0.4), radius: 12, y: 6)
-                .rotationEffect(.degrees(appear ? Double(i) * 9 - 13.5 : 0), anchor: .bottom)
-                .offset(x: appear ? CGFloat(i) * 38 - 57 : 0)
+                .rotationEffect(.degrees(appear ? Double(i) * 7 - 10.5 : 0), anchor: .bottom)
+                .offset(x: appear ? CGFloat(i) * 64 - 96 : 0)
                 .animation(.tkBouncy.delay(0.1 + Double(i) * 0.06), value: appear)
             }
         }

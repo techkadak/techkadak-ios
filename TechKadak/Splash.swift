@@ -26,6 +26,7 @@ struct SplashHost<Content: View>: View {
     @State private var start = Date()
     @State private var done = false
     @State private var skipped = false
+    @State private var appeared = false
     private let duration = 2.8
     private let frozen: Double? = Config.arg("tkSplashAt").flatMap { Double($0) }
     private let noSplash = Config.arg("tkNoSplash") == "1"
@@ -40,6 +41,8 @@ struct SplashHost<Content: View>: View {
                 stack(t: t, finished: finished, geo: geo)
             }
         }
+        .statusBarHidden(!finished)
+        .onAppear { if !appeared { appeared = true; start = Date() } }
         .task {
             if frozen != nil || noSplash { return }
             try? await Task.sleep(nanoseconds: UInt64(duration * 1_000_000_000) + 80_000_000)
